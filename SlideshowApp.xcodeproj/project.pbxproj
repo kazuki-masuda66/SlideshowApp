@@ -13,6 +13,10 @@
 		D455D52725886244009D61FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D455D52525886244009D61FD /* Main.storyboard */; };
 		D455D52925886248009D61FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D455D52825886248009D61FD /* Assets.xcassets */; };
 		D455D52C25886248009D61FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D455D52A25886248009D61FD /* LaunchScreen.storyboard */; };
+		D455D534258862B8009D61FD /* dog1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D455D533258862B8009D61FD /* dog1.jpg */; };
+		D455D536258862C5009D61FD /* dog2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D455D535258862C5009D61FD /* dog2.jpeg */; };
+		D455D538258862D1009D61FD /* dog3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D455D537258862D1009D61FD /* dog3.jpeg */; };
+		D455D53A2588713B009D61FD /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D455D5392588713A009D61FD /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		D455D52825886248009D61FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D455D52B25886248009D61FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D455D52D25886248009D61FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D455D533258862B8009D61FD /* dog1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog1.jpg; path = ../../../../Downloads/dog1.jpg; sourceTree = "<group>"; };
+		D455D535258862C5009D61FD /* dog2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog2.jpeg; path = ../../../../Downloads/dog2.jpeg; sourceTree = "<group>"; };
+		D455D537258862D1009D61FD /* dog3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog3.jpeg; path = ../../../../Downloads/dog3.jpeg; sourceTree = "<group>"; };
+		D455D5392588713A009D61FD /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,13 @@
 		D455D51E25886244009D61FD /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
+				D455D537258862D1009D61FD /* dog3.jpeg */,
+				D455D535258862C5009D61FD /* dog2.jpeg */,
+				D455D533258862B8009D61FD /* dog1.jpg */,
 				D455D51F25886244009D61FD /* AppDelegate.swift */,
 				D455D52125886244009D61FD /* SceneDelegate.swift */,
 				D455D52325886244009D61FD /* ViewController.swift */,
+				D455D5392588713A009D61FD /* ResultViewController.swift */,
 				D455D52525886244009D61FD /* Main.storyboard */,
 				D455D52825886248009D61FD /* Assets.xcassets */,
 				D455D52A25886248009D61FD /* LaunchScreen.storyboard */,
@@ -126,7 +138,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D455D52C25886248009D61FD /* LaunchScreen.storyboard in Resources */,
+				D455D536258862C5009D61FD /* dog2.jpeg in Resources */,
 				D455D52925886248009D61FD /* Assets.xcassets in Resources */,
+				D455D534258862B8009D61FD /* dog1.jpg in Resources */,
+				D455D538258862D1009D61FD /* dog3.jpeg in Resources */,
 				D455D52725886244009D61FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +156,7 @@
 				D455D52425886244009D61FD /* ViewController.swift in Sources */,
 				D455D52025886244009D61FD /* AppDelegate.swift in Sources */,
 				D455D52225886244009D61FD /* SceneDelegate.swift in Sources */,
+				D455D53A2588713B009D61FD /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
