@@ -26,16 +26,12 @@ class ResultViewController: UIViewController {
         imageView.image = imageArray[nowIndex]
         // Do any additional setup after loading the view.
     }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // segueから遷移先のViewControllerを取得する
-        let ViewController:ViewController = segue.destination as! ViewController
-        ViewController.nowIndex = self.nowIndex
-    }
 
     /*
     // MARK: - Navigation
 
+     
+     
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.

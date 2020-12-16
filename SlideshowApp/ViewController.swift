@@ -116,5 +116,8 @@ class ViewController: UIViewController {
             ResultViewController.nowIndex = self.nowIndex
         
     }
+    
+    @IBAction func unwind(_ segue: UIStoryboardSegue) {
+        
+    }
 }
-
