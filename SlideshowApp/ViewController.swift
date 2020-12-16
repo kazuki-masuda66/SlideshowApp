@@ -24,9 +24,9 @@ class ViewController: UIViewController {
     var timer: Timer!
     
     var imageArray:[UIImage] = [
-        UIImage(named: "dog1")!,
-        UIImage(named: "dog2")!,
-        UIImage(named: "dog3")!
+        UIImage(named: "dog1.jpeg")!,
+        UIImage(named: "dog2.jpeg")!,
+        UIImage(named: "dog3.jpeg")!
     ]
 
     
