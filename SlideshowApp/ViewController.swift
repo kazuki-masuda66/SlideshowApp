@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     
     // スライドショーに使用するタイマーを宣言
     var timer: Timer!
-    
+        
     var imageArray:[UIImage] = [
         UIImage(named: "dog1.jpeg")!,
         UIImage(named: "dog2.jpeg")!,
@@ -107,6 +107,21 @@ class ViewController: UIViewController {
     }
     
     @IBAction func tapAction(_ sender: Any) {
+        
+        if (timer != nil) {
+            // タイマーを停止する
+            timer.invalidate()
+            // タイマーを削除しておく
+            timer = nil
+
+            // ボタンの名前を再生に直しておく
+            startButton.setTitle("再生", for: .normal)
+            
+            //進むボタンと戻るボタンを活性にする
+            moveButton.isEnabled = true
+            returnButton.isEnabled = true
+            
+        }
         // セグエを使用して画面を遷移
         performSegue(withIdentifier: "result", sender: self.nowIndex)
     }
@@ -114,10 +129,10 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
             let ResultViewController:ResultViewController = segue.destination as! ResultViewController
             ResultViewController.nowIndex = self.nowIndex
-        
+
     }
     
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
-        
+
     }
 }
